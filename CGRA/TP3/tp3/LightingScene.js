@@ -155,7 +155,7 @@ LightingScene.prototype.display = function() {
 
 
 	// ---- BEGIN Primitive drawing section
-/*
+
 	// Floor
 	this.pushMatrix();
 		this.floorMaterial.apply();
@@ -210,11 +210,11 @@ LightingScene.prototype.display = function() {
 		
 		this.materialB.apply();
 		this.boardB.display();
-	this.popMatrix();*/
+	this.popMatrix();
 
 	this.pushMatrix();
-	//this.translate(1, 0, 13);
-	//this.rotate(-Math.PI/2, 1, 0, 0);
+	this.translate(1, 0, 14);
+	this.rotate(-Math.PI/2, 1, 0, 0);
 	this.prism.display();
 	this.popMatrix();
 
