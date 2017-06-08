@@ -1,5 +1,5 @@
 # FEUP-CGRA
-All coding done CGRA @FEUP
+Project made for "Computação Gráfica", a subject from the 2nd year, 2nd semester, @FEUP.
 
 The goal of this project was to develop and model a functional 3D submarine using JavaScript's WebCGF.
 
